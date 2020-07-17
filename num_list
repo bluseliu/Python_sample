@@ -1,0 +1,11 @@
+""寫出 1到100 的偶數串列"""
+
+# 方法一
+list = []
+for n in range(0,101):
+    if n % 2 == 0:
+        list += [n]
+print(list)
+
+# 方法二
+print([x * 2 for x in range(51)])
